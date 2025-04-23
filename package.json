@@ -57,7 +57,8 @@
     "test:e2e": "grunt build && cypress run",
     "cy:run": "cypress run",
     "cy:run:headed": "cypress run --headed",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "prepare": "grunt build"
   },
   "browserslist": [
     "Android 2.3",
